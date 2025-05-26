@@ -9,7 +9,7 @@ int main()
     for(int i = 0; i < n; i++){
         int petya, vasya, tonya;
         scanf("%d %d %d", &petya, &vasya, &tonya);
-        int sum = (petya +vasya + tonya);
+        int sum = (petya + vasya + tonya);
         if(sum >= 2){
             count++;
         }
